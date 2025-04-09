@@ -10,19 +10,19 @@ const Navbar = () => {
         </div>
 
         <ul className="hidden md:flex gap-8 text-sm text-gray-700">
-          <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer">
+          <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110">
             Home
           </li>
-          <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer">
+          <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110">
             Find a doctor
           </li>
-          <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer">
+          <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110">
             Apps
           </li>
-          <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer">
+          <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110">
             Testimonials
           </li>
-          <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer">
+          <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110">
             About us
           </li>
         </ul>
