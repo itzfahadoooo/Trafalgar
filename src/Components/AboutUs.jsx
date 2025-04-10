@@ -29,9 +29,9 @@ const AboutUs = () => {
   return (
     <div className="w-full">
       <div className="flex flex-col justify-center gap-8 max-w-[1280px] mx-auto items-center py-6 px-8 md:px-16">
-        <h1 className="text-black text-[36px] font-bold ">Check out our latest article</h1>
-        <div className=""></div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl w-full">
+        <h1 className="text-black text-4xl font-bold ">Check out our latest article</h1>
+        <div className="w-[56px] h-[2px] rounded-[5px] mb-8 bg-[#000]"></div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mb-8 w-full">
           {articles.map((article, index) => (
             <div
               key={index}
@@ -40,16 +40,16 @@ const AboutUs = () => {
               <img
                 src={article.image}
                 alt={article.title}
-                className="w-full h-[200px] object-cover"
+                className="w-full object-cover"
               />
               <div className="p-6 flex flex-col gap-3">
-                <h3 className="text-xl font-bold text-[#1F1534] leading-snug">
+                <h3 className="text-xl font-bold text-black leading-snug">
                   {article.title}
                 </h3>
-                <p className="text-[#7D7987] text-sm">{article.description}</p>
+                <p className="text-[#7D7987] text-lg ">{article.description}</p>
                 <a
                   href="#"
-                  className="text-[#4089ED] text-sm font-medium flex items-center gap-2"
+                  className="text-[#4089ED] text-lg font-semibold flex items-center gap-2"
                 >
                   Read more <span className="text-lg">→</span>
                 </a>
@@ -57,6 +57,11 @@ const AboutUs = () => {
             </div>
           ))}
         </div>
+        <div className="w-[200px] h-[56px] rounded-[55px] mb-8 border-[1.4px] border-[#458FF6] flex items-center justify-center cursor-pointer gap-2">
+            <p className="text-[#458FF6] text-[18px] font-bold ">
+              View all
+            </p>
+          </div>
       </div>
     </div>
   );
