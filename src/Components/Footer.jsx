@@ -16,9 +16,9 @@ const footerLinks = [
 
 const Footer = () => {
   return (
-    <footer className="w-full h-96 bg-[linear-gradient(183deg,_#67C3F3_-8.57%,_#5A98F2_82.96%)] text-white pt-12 pb-6 px-8 md:px-16 mt-8">
-      <div className="max-w-[1280px] justify-center mx-auto flex items-center py-6 px-8 md:px-16 md:justify-between flex-wrap">
-        <div className="w-sm flex flex-col gap-4">
+    <footer className="w-full bg-[linear-gradient(183deg,_#67C3F3_-8.57%,_#5A98F2_82.96%)] text-white pt-12 pb-6 px-8 md:px-16 mt-8">
+      <div className="max-w-[1280px] justify-center mx-auto flex items-center py-6 px-8 md:px-16 md:justify-between flex-wrap gap-8">
+        <div className="w-sm flex flex-col gap-4 items-center md:items-start text-center md:text-left">
           <div className="flex items-center gap-3">
             <div className="flex justify-center w-[41px] h-[41px] rounded-full border bg-white items-center">
               <p className="text-[#5B9BF3] text-[26px] font-bold">T</p>
@@ -34,16 +34,19 @@ const Footer = () => {
           </p>
         </div>
 
-        {footerLinks.map((section) => (
-          <div key={section.title}>
-            <h4 className="text-[20px] font-bold leading-[60px]">{section.title}</h4>
-            <ul className="text-[18px] font-light leading-[38px]">
-              {section.items.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
+        <div className="w-full md:w-auto flex flex-wrap justify-center md:justify-between gap-8">
+            {footerLinks.map((section) => (
+            <div key={section.title} className="text-center md:text-left">
+                <h4 className="text-[20px] font-bold leading-[60px]">{section.title}</h4>
+                <ul className="text-[18px] font-light leading-[38px]">
+                {section.items.map((item) => (
+                    <li key={item}>{item}</li>
+                ))}
+                </ul>
+            </div>
+            ))}
+        </div>
+    
       </div>
     </footer>
   );
