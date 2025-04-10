@@ -79,8 +79,8 @@ const Services = () => {
             </div>
           ))}
         </div>
-        <div className="w-[200px] h-[56px] rounded-[55px] border-[1.4px] border-[#458FF6] flex items-center justify-center">
-          <p className="text-[#458FF6] text-[18px] font-bold cursor-pointer">
+        <div className="w-[200px] h-[56px] rounded-[55px] border-[1.4px] border-[#458FF6] flex items-center justify-center cursor-pointer">
+          <p className="text-[#458FF6] text-[18px] font-bold ">
             Learn more
           </p>
         </div>
@@ -94,11 +94,11 @@ const Services = () => {
           Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
           in the solutions we deliver
           </p>
-          <div className="w-[200px] h-[56px] text-center rounded-[55px] bg-[#458FF6] flex items-center justify-center">
-            <p className="text-white text-[18px] font-bold cursor-pointer">
+          <div className="w-[200px] h-[56px] rounded-[55px] border-[1.4px] border-[#458FF6] flex items-center justify-center  cursor-pointer">
+          <p className="text-[#458FF6] text-[18px] font-bold">
             Learn more
-            </p>
-          </div>
+          </p>
+        </div>
         </div>
       </div>
     </div>

@@ -15,11 +15,11 @@ const Apps = () => {
             access information instantaneously (no tedeous form, long calls, or
             administrative hassle) and securely
           </p>
-          <div className="w-[200px] h-[56px] text-center rounded-[55px] bg-[#458FF6] flex items-center justify-center gap-2">
-            <p className="text-white text-[18px] font-bold cursor-pointer">
+          <div className="w-[200px] h-[56px] rounded-[55px] border-[1.4px] border-[#458FF6] flex items-center justify-center cursor-pointer gap-2">
+            <p className="text-[#458FF6] text-[18px] font-bold ">
               Download
             </p>
-            <ArrowDown color="white" size={24} />
+            <ArrowDown color="#458FF6" size={24} />
           </div>
         </div>
         <img src={image} alt="" className="w-[492px] h-[340px]" />
