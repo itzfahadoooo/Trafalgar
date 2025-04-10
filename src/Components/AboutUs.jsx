@@ -25,9 +25,9 @@ const articles = [
   },
 ];
 
-const AboutUs = () => {
+const AboutUs = ({ id }) => {
   return (
-    <div className="w-full">
+    <div id={ id } className="w-full">
       <div className="flex flex-col justify-center gap-8 max-w-[1280px] mx-auto items-center py-6 px-8 md:px-16">
         <h1 className="text-black text-4xl font-bold ">Check out our latest article</h1>
         <div className="w-[56px] h-[2px] rounded-[5px] mb-8 bg-[#000]"></div>

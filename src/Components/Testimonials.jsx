@@ -2,9 +2,9 @@ import React from "react";
 import profile from "../assets/Group 5.png";
 import { ArrowLeft, ArrowRight, Dot } from "lucide-react";
 
-const Testimonials = () => {
+const Testimonials = ({ id }) => {
   return (
-    <div className="w-full flex flex-col gap-10 items-center justify-center px-4 mb-24">
+    <div id={ id } className="w-full flex flex-col gap-10 items-center justify-center px-4 mb-24">
       <div className="w-full max-w-6xl py-8 px-6 md:p-16 flex flex-col items-center justify-center gap-8 rounded-[24px] bg-gradient-to-br from-[#67C3F3] to-[#5A98F2]">
         <h1 className="text-white font-bold text-2xl md:text-3xl text-center">
           What our customer are saying

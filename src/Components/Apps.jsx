@@ -2,9 +2,9 @@ import React from "react";
 import image from "../assets/trafalgar-illustration sec03 1.png";
 import { ArrowDown } from "lucide-react";
 
-const Apps = () => {
+const Apps = ({ id }) => {
   return (
-    <div className="w-full mb-24">
+    <div id={ id } className="w-full mb-24">
       <div className="max-w-[1280px] justify-center mx-auto flex items-center py-6 px-8 md:px-16 md:justify-between flex-wrap gap-8">
         <div className="w-[445px] h-auto flex flex-col gap-8 items-center justify-center text-center">
           <h1 className="text-[#000] text-[48px] font-bold">

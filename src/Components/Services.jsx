@@ -51,9 +51,9 @@ const services = [
   },
 ];
 
-const Services = () => {
+const Services = ({ id }) => {
   return (
-    <div className="w-full py-12 md:mb-24">
+    <div id={id} className="w-full py-12 md:mb-24">
       <div className="flex flex-col justify-center gap-8 max-w-[1280px] mx-auto items-center py-6 px-8 md:px-16">
         <h1 className="text-[36px] font-bold text-center text-black">
           Our Services

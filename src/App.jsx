@@ -11,11 +11,11 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <Hero/>
-      <Services/>
-      <Apps/>
-      <Testimonials/>
-      <AboutUs/>
+      <Hero id="home"/>
+      <Services id="services"/>
+      <Apps id="apps"/>
+      <Testimonials id="testimonials"/>
+      <AboutUs id="about"/>
       <Footer/>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import logo from "../assets/logo.png";
 
 const Navbar = () => {
@@ -11,19 +12,29 @@ const Navbar = () => {
 
         <ul className="hidden md:flex gap-8 text-sm text-gray-700">
           <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110">
-            Home
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
           </li>
           <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110">
-            Find a doctor
+            <Link to="services" smooth={true} duration={500}>
+              Find a doctor
+            </Link>
           </li>
           <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110">
-            Apps
+            <Link to="apps" smooth={true} duration={500}>
+              Apps
+            </Link>
           </li>
           <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110">
-            Testimonials
+            <Link to="testimonials" smooth={true} duration={500}>
+              Testimonials
+            </Link>
           </li>
           <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110">
-            About us
+            <Link to="about" smooth={true} duration={500}>
+              About us
+            </Link>
           </li>
         </ul>
       </div>
