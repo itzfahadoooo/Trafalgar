@@ -5,8 +5,8 @@ import { ArrowDown } from "lucide-react";
 const Apps = () => {
   return (
     <div className="w-full mb-24">
-      <div className="max-w-[1280px] justify-center mx-auto flex items-center py-6 px-8 md:px-16 md:justify-between flex-wrap">
-        <div className="w-[445px] h-auto flex flex-col gap-[24px]">
+      <div className="max-w-[1280px] justify-center mx-auto flex items-center py-6 px-8 md:px-16 md:justify-between flex-wrap gap-8">
+        <div className="w-[445px] h-auto flex flex-col gap-8 items-center justify-center text-center">
           <h1 className="text-[#000] text-[48px] font-bold">
             Download our mobile apps{" "}
           </h1>
@@ -22,7 +22,7 @@ const Apps = () => {
             <ArrowDown color="#458FF6" size={24} />
           </div>
         </div>
-        <img src={image} alt="" className="w-[492px] h-[340px]" />
+        <img src={image} alt="" className="w-md" />
       </div>
     </div>
   );

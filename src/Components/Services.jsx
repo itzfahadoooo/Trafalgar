@@ -53,7 +53,7 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="w-full py-12 mb-24">
+    <div className="w-full py-12 md:mb-24">
       <div className="flex flex-col justify-center gap-8 max-w-[1280px] mx-auto items-center py-6 px-8 md:px-16">
         <h1 className="text-[36px] font-bold text-center text-black">
           Our Services
@@ -85,9 +85,9 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className="max-w-[1280px] justify-center mx-auto flex items-center py-6 px-8 md:px-16 md:justify-between flex-wrap">
-        <img src={image} alt="" className="w-[492px] h-[340px]" />
-        <div className="w-[445px] h-auto flex flex-col gap-[24px]">
+      <div className="max-w-[1280px] justify-center mx-auto flex items-center py-6 px-8 md:px-16 md:justify-between flex-wrap gap-8">
+        <img src={image} alt="" className="w-md" />
+        <div className="w-[445px] h-auto flex flex-col gap-[24px] text-center items-center justify-center">
           <h1 className="text-[#000] text-[48px] font-bold">
           Leading healthcare providers          </h1>
           <p className="text-[#7D7987] text-[21px] font-light">
