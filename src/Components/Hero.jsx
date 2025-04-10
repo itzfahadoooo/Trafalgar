@@ -3,7 +3,7 @@ import image from "../assets/trafalgar-header illustration 1.png";
 
 const Hero = () => {
   return (
-    <div className="w-full">
+    <div className="w-full ">
       <div className="max-w-[1280px] justify-center mx-auto flex items-center py-6 px-8 md:px-16 md:justify-between flex-wrap">
         <div className="w-[445px] h-auto flex flex-col gap-[24px]">
           <h1 className="text-[#000] text-[48px] font-bold">
