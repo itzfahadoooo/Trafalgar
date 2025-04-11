@@ -11,6 +11,7 @@ const Testimonials = ({ id }) => {
         </h1>
         <div className="w-[56px] h-[2px] rounded-[6px] bg-white"></div>
 
+
         <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-24 text-center md:text-left">
           <div className="flex flex-col sm:flex-row items-center gap-4 md:gap-8">
             <img
