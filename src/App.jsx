@@ -13,6 +13,7 @@ const App = () => {
       <Navbar/>
       <Hero id="home"/>
       <Services id="services"/>
+      
       <Apps id="apps"/>
       <Testimonials id="testimonials"/>
       <AboutUs id="about"/>
