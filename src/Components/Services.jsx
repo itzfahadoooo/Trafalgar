@@ -60,7 +60,7 @@ const Services = ({ id }) => {
         </h1>
 
         <div className="w-[56px] h-[2px] rounded-[5px] bg-[#000]"></div>
-        
+
         <p className="text-center text-[#7D7987] text-[18px] mb-12 ">
           We provide to you the best choices for you. Adjust it to your health
           needs and make sure you undergo treatment with our highly qualified
@@ -82,25 +82,23 @@ const Services = ({ id }) => {
           ))}
         </div>
         <div className="w-[200px] h-[56px] rounded-[55px] border-[1.4px] border-[#458FF6] flex items-center justify-center cursor-pointer">
-          <p className="text-[#458FF6] text-[18px] font-bold ">
-            Learn more
-          </p>
+          <p className="text-[#458FF6] text-[18px] font-bold ">Learn more</p>
         </div>
       </div>
       <div className="max-w-[1280px] justify-center mx-auto flex items-center py-6 px-8 md:px-16 md:justify-between flex-wrap gap-8">
         <img src={image} alt="" className="w-md" />
         <div className="w-[445px] h-auto flex flex-col gap-[24px] text-center items-center justify-center">
           <h1 className="text-[#000] text-[48px] font-bold">
-          Leading healthcare providers          </h1>
+            Leading healthcare providers{" "}
+          </h1>
           <p className="text-[#7D7987] text-[21px] font-light">
-          Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
-          in the solutions we deliver
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone. To us, it’s not just
+            work. We take pride in the solutions we deliver
           </p>
           <div className="w-[200px] h-[56px] rounded-[55px] border-[1.4px] border-[#458FF6] flex items-center justify-center  cursor-pointer">
-          <p className="text-[#458FF6] text-[18px] font-bold">
-            Learn more
-          </p>
-        </div>
+            <p className="text-[#458FF6] text-[18px] font-bold">Learn more</p>
+          </div>
         </div>
       </div>
     </div>
