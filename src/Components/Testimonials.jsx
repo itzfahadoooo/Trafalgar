@@ -4,15 +4,15 @@ import { ArrowLeft, ArrowRight, Dot } from "lucide-react";
 
 const Testimonials = ({ id }) => {
   return (
-    <div id={ id } className="w-full flex flex-col gap-10 items-center justify-center px-4 pt-24">
-      
+    <div
+      id={id}
+      className="w-full flex flex-col gap-10 items-center justify-center px-4 pt-24"
+    >
       <div className="w-full max-w-6xl py-8 px-6 md:p-16 flex flex-col items-center justify-center gap-8 rounded-[24px] bg-gradient-to-br from-[#67C3F3] to-[#5A98F2]">
-        
         <h1 className="text-white font-bold text-2xl md:text-3xl text-center">
           What our customer are saying
         </h1>
         <div className="w-[56px] h-[2px] rounded-[6px] bg-white"></div>
-
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-24 text-center md:text-left">
           <div className="flex flex-col sm:flex-row items-center gap-4 md:gap-8">
@@ -41,12 +41,12 @@ const Testimonials = ({ id }) => {
       <div className=" hidden md:flex text-[#91d7fd] gap-8 cursor-pointer">
         <ArrowLeft size={31} />
         <div className="flex">
-          <Dot className="text-[#458FF6]" size={31}/>
-          <Dot size={31}/>
-          <Dot size={31}/>
-          <Dot size={31}/>
+          <Dot className="text-[#458FF6]" size={31} />
+          <Dot size={31} />
+          <Dot size={31} />
+          <Dot size={31} />
         </div>
-        <ArrowRight className="text-[#458FF6]" size={31}/>
+        <ArrowRight className="text-[#458FF6]" size={31} />
       </div>
     </div>
   );
