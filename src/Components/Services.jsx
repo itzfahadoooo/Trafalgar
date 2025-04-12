@@ -58,8 +58,9 @@ const Services = ({ id }) => {
         <h1 className="text-[36px] font-bold text-center text-black">
           Our Services
         </h1>
-        
+
         <div className="w-[56px] h-[2px] rounded-[5px] bg-[#000]"></div>
+        
         <p className="text-center text-[#7D7987] text-[18px] mb-12 ">
           We provide to you the best choices for you. Adjust it to your health
           needs and make sure you undergo treatment with our highly qualified
