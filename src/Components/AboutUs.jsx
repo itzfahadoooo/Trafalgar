@@ -20,8 +20,9 @@ const articles = [
   {
     image: image3,
     title: "Natural care for healthy facial skin",
-    
+
     description:
+    
       "A healthy lifestyle should start from now and also for your skin health. There are some...",
   },
 ];
