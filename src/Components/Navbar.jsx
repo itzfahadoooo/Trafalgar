@@ -34,28 +34,52 @@ const Navbar = () => {
           } md:flex gap-8 text-sm text-gray-700 absolute md:static top-full left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none`}
         >
           <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110 py-4 md:py-0">
-            <Link to="home" smooth={true} duration={500} onClick={() => setIsMenuOpen(false)}>
+            <Link
+              to="home"
+              smooth={true}
+              duration={500}
+              onClick={() => setIsMenuOpen(false)}
+            >
               Home
             </Link>
           </li>
           <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110 py-4 md:py-0">
-            <Link to="services" smooth={true} duration={500} onClick={() => setIsMenuOpen(false)}>
+            <Link
+              to="services"
+              smooth={true}
+              duration={500}
+              onClick={() => setIsMenuOpen(false)}
+            >
               Find a doctor
-              
             </Link>
           </li>
           <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110 py-4 md:py-0">
-            <Link to="apps" smooth={true} duration={500} onClick={() => setIsMenuOpen(false)}>
+            <Link
+              to="apps"
+              smooth={true}
+              duration={500}
+              onClick={() => setIsMenuOpen(false)}
+            >
               Apps
             </Link>
           </li>
           <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110 py-4 md:py-0">
-            <Link to="testimonials" smooth={true} duration={500} onClick={() => setIsMenuOpen(false)}>
+            <Link
+              to="testimonials"
+              smooth={true}
+              duration={500}
+              onClick={() => setIsMenuOpen(false)}
+            >
               Testimonials
             </Link>
           </li>
           <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110 py-4 md:py-0">
-            <Link to="about" smooth={true} duration={500} onClick={() => setIsMenuOpen(false)}>
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              onClick={() => setIsMenuOpen(false)}
+            >
               About us
             </Link>
           </li>
