@@ -10,15 +10,15 @@ import AboutUs from "./Components/AboutUs";
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      
-      <Hero id="home"/>
-      <Services id="services"/>
+      <Navbar />
 
-      <Apps id="apps"/>
-      <Testimonials id="testimonials"/>
-      <AboutUs id="about"/>
-      <Footer/>
+      <Hero id="home" />
+      <Services id="services" />
+
+      <Apps id="apps" />
+      <Testimonials id="testimonials" />
+      <AboutUs id="about" />
+      <Footer />
     </div>
   );
 };
