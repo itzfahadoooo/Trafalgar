@@ -41,6 +41,7 @@ const Navbar = () => {
           <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110 py-4 md:py-0">
             <Link to="services" smooth={true} duration={500} onClick={() => setIsMenuOpen(false)}>
               Find a doctor
+              
             </Link>
           </li>
           <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110 py-4 md:py-0">
