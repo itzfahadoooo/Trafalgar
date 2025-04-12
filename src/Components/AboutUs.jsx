@@ -3,7 +3,6 @@ import image1 from "../assets/image 2.png";
 import image2 from "../assets/image 2 (1).png";
 import image3 from "../assets/image 3.png";
 
-
 const articles = [
   {
     image: image1, // update with actual paths
@@ -22,16 +21,17 @@ const articles = [
     title: "Natural care for healthy facial skin",
 
     description:
-    
       "A healthy lifestyle should start from now and also for your skin health. There are some...",
   },
 ];
 
 const AboutUs = ({ id }) => {
   return (
-    <div id={ id } className="w-full pt-24">
+    <div id={id} className="w-full pt-24">
       <div className="flex flex-col justify-center gap-8 max-w-[1280px] mx-auto items-center py-6 px-8 md:px-16">
-        <h1 className="text-black text-4xl font-bold ">Check out our latest article</h1>
+        <h1 className="text-black text-4xl font-bold ">
+          Check out our latest article
+        </h1>
         <div className="w-[56px] h-[2px] rounded-[5px] mb-8 bg-[#000]"></div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mb-8 w-full">
           {articles.map((article, index) => (
@@ -60,10 +60,8 @@ const AboutUs = ({ id }) => {
           ))}
         </div>
         <div className="w-[200px] h-[56px] rounded-[55px] mb-8 border-[1.4px] border-[#458FF6] flex items-center justify-center cursor-pointer gap-2">
-            <p className="text-[#458FF6] text-[18px] font-bold ">
-              View all
-            </p>
-          </div>
+          <p className="text-[#458FF6] text-[18px] font-bold ">View all</p>
+        </div>
       </div>
     </div>
   );
