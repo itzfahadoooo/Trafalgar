@@ -12,6 +12,7 @@ const App = () => {
     <div>
       <Navbar />
 
+
       <Hero id="home" />
       <Services id="services" />
 
