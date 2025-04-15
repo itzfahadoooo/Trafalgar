@@ -14,6 +14,7 @@ const App = () => {
 
 
       <Hero id="home" />
+      
       <Services id="services" />
 
       <Apps id="apps" />
