@@ -59,8 +59,6 @@ const Services = ({ id }) => {
           Our Services
         </h1>
 
-
-
         <div className="w-[56px] h-[2px] rounded-[5px] bg-[#000]"></div>
 
         <p className="text-center text-[#7D7987] text-[18px] mb-12 ">
