@@ -17,6 +17,7 @@ const articles = [
       "Herbal medicine is very widely used at this time because of its very good for your health...",
   },
   {
+    
     image: image3,
     title: "Natural care for healthy facial skin",
 
