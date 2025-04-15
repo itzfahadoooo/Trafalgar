@@ -10,6 +10,7 @@ const Apps = ({ id }) => {
           <h1 className="text-[#000] text-[48px] font-bold">
             Download our mobile apps{" "}
             
+            
           </h1>
           <p className="text-[#7D7987] text-[21px] font-light">
             Our dedicated patient engagement app and web portal allow you to
