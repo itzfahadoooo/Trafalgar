@@ -12,9 +12,8 @@ const App = () => {
     <div>
       <Navbar />
 
-
       <Hero id="home" />
-      
+
       <Services id="services" />
 
       <Apps id="apps" />
