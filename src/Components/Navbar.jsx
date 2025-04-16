@@ -62,6 +62,7 @@ const Navbar = () => {
             >
               Apps
             </Link>
+            
           </li>
           <li className="hover:text-[#1F1534] hover:font-bold cursor-pointer transition duration-300 transform hover:scale-110 py-4 md:py-0">
             <Link
