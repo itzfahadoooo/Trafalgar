@@ -58,6 +58,7 @@ const Services = ({ id }) => {
         <h1 className="text-[36px] font-bold text-center text-black">
           Our Services
           
+          
         </h1>
 
         <div className="w-[56px] h-[2px] rounded-[5px] bg-[#000]"></div>
