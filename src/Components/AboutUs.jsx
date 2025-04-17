@@ -26,6 +26,8 @@ const articles = [
   },
 ];
 
+
+
 const AboutUs = ({ id }) => {
   return (
     <div id={id} className="w-full pt-24">
